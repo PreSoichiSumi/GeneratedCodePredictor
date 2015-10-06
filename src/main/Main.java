@@ -54,7 +54,7 @@ public class Main {
 	static List<File> fileList = new ArrayList<File>();
 
 	public static void main(String[] args) throws IOException {
-		//交差検証，特徴選択，モデル構築，クロスプロジェクトに関する調査を行う．
+		//交差検証，特徴選択，モデル構築，クロスツールでの予測を行う．
 
 		DataSource source;
 		try {
@@ -91,7 +91,7 @@ public class Main {
 				//フィルタリング : 特徴選択してデータを加工
 				filteredData=useFilter(data);
 
-				//モデル構築して評価，交差検証とかぶるがしょーがない．
+				//モデル構築して評価，交差検証とかぶるがしょうがない．
 				evalCrossProject(filteredData,fileData);
 			}
 			System.out.println("------Finished--------\n");
@@ -297,7 +297,7 @@ public class Main {
 				cls.setOptions(options);
 				//pathCP="CrossProject\\randomforest.arff";
 			} else {
-				System.err.println("分類器は存在しないっ");
+				System.err.println("分類器は存在しない");
 				System.exit(0);
 			}
 			dataCP = DataSource.read(pathCP);
