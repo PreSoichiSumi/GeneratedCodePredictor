@@ -7,7 +7,7 @@
 本ツールを用いて人によって書かれたコードでないコードを取り除くことができます．<br>
 
 ## ツールの動作の流れ
-1．[ExtractingSourceFeatures](../ExtractingSourceFeatures)を用いて作成した学習データを入力として受け取る<br>
+1．[ExtractingSourceFeatures](../../../../ExtractingSourceFeatures)を用いて作成した学習データを入力として受け取る<br>
 2. [WekaAPI](https://weka.wikispaces.com/Use+WEKA+in+your+Java+code#Links)を用いて特徴選択・分類器構築・交差検証を行う<br>
 
 ## 評価実験結果
