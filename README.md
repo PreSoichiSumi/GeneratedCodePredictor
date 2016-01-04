@@ -11,7 +11,7 @@
 2. [WekaAPI](https://weka.wikispaces.com/Use+WEKA+in+your+Java+code#Links)を用いて特徴選択・分類器構築・交差検証を行う<br>
 
 ## 評価実験結果
-ApacheProjectsから手作業で取得した自動生成コードと非自動生成コードを学習データとして，交差検証を行いました．
+ApacheProjectsから手作業で取得した自動生成コードと非自動生成コードを学習データとして，交差検証を行いました．<br>
 精度は約95%でした．
 
 実験結果の詳細は近日公開予定です．
